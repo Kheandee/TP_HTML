@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8/>
+    <link href="style_tp.css" rel="stylesheet" type="text/css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>TP sur HTML</header>
+<!--le formulaire-->
+    <h1>Formulaire à remplir</h1>
+    <form method="post" action="formulaire.php">
+        <fieldset>Veuillez remplir le formulaire ci-dessous
+          <div id="div1">
+            <label for="prenom">Prenom:</label>
+            <input type="text" id="name" name="Prénom" placeholder="Votre prénom" 
+            minlength="2" maxlength="20">
+          </div>
+        
+          <div id="div2">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="Nom" placeholder="Votre nom" 
+            minlength="2" maxlength="20">
+          </div>
+        
+          <div id="div3">
+            <label for="mail">Email:</label>
+            <input type="text" id="mail" name="Mail" placeholder="Votre e-mail">
+          </div>
+          <div id="div4">
+            <textarea label for="commentaire" placeholder="Un commentaire ?" rows="10" cols="90"></textarea>
+          </div>
+          <div id="div5">
+            <label for="valider">Envoyer une copie:</label>
+            <input type="checkbox" id="checkbox" checked>
+            <label for="submit">Submit:</label>
+            <input type="checkbox" id="checkbox">
+            <label for="reset">Reset:</label>
+            <input type="checkbox" id="checkbox">
+          </div>
+<!--le même footer-->
+    <footer>
+        <ul>
+            <li classe="lien1"><a href="page_fictive1.html">Page fictive</a></li>
+            <li classe="lien2"><a href="page_fictive2.html">Seconde page fictive</a>
+            <li classe="lien3"><a href="page_fictive3.html">Elle aussi est fictive</a>
+            <li classe="lien4"><a href="page_fictive4.html">TP pas facile mais on s'accroche</a>
+        </ul>
+    </footer>
+</body>

@@ -1,0 +1,29 @@
+head{
+    width: 100em;
+    background: linear-gradient(center, #CCDAE0, #EDF2F4);
+}
+h1{
+   color: #EF233C;
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    color: #2B2D42;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: dotted 3px;
+}
+p{
+    border: 2px solid #8D99AE;
+}
+a{
+    color: #D90429; 
+}
+a:visited{
+    color: grey;
+}
+footer{
+    position: relative;
+    top: 20px;
+    left: 85%;
+}
