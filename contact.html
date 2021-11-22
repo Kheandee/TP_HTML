@@ -13,19 +13,20 @@
         <fieldset>Veuillez remplir le formulaire ci-dessous
           <div id="div1">
             <label for="prenom">Prenom:</label>
-            <input type="text" id="name" name="Prénom" placeholder="Votre prénom" 
-            minlength="2" maxlength="20">
+            <input type="text" id="name" name="Prénom" placeholder="*" 
+            minlength="2" maxlength="20" required="required">
           </div>
         
           <div id="div2">
             <label for="nom">Nom:</label>
-            <input type="text" id="nom" name="Nom" placeholder="Votre nom" 
-            minlength="2" maxlength="20">
+            <input type="text" id="nom" name="Nom" placeholder="*" 
+            minlength="2" maxlength="20" required="required">
           </div>
         
           <div id="div3">
             <label for="mail">Email:</label>
-            <input type="text" id="mail" name="Mail" placeholder="Votre e-mail">
+            <input type="text" id="mail" name="Mail" placeholder="*" 
+            required="required">
           </div>
           <div id="div4">
             <textarea label for="commentaire" placeholder="Un commentaire ?" rows="10" cols="90"></textarea>
